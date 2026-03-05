@@ -271,3 +271,8 @@ This server provides the following tools to interact with the Frontegg API:
 
 1.  `get_frontegg_integrations`: Fetches all Frontegg integrations.
 2.  `get_frontegg_integration`: Fetches a single Frontegg integration by ID.
+
+**Entitlements**
+
+1.  `get_tenant_plans`: Fetches plans attached to a specific tenant.
+2.  `get_entitlements`: Fetches entitlements for one or more tenants.

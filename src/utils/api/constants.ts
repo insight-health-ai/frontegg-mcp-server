@@ -34,4 +34,6 @@ export const FronteggEndpoints = {
   APPLICATION: "/applications/resources/applications/v1",
   TENANTS_V1: "/tenants/resources/tenants/v1",
   TENANTS_V2: "/tenants/resources/tenants/v2",
+  ENTITLEMENTS_PLANS_BY_TENANT: "/entitlements/resources/plans/v1/tenant",
+  ENTITLEMENTS_V2: "/entitlements/resources/entitlements/v2",
 };

@@ -74,6 +74,10 @@ import {
   registerDeleteTenantTool,
   registerUpdateTenantTool,
 } from "./tenants";
+import {
+  registerGetTenantPlansTool,
+  registerGetEntitlementsTool,
+} from "./entitlements";
 
 export function registerAllTools(server: McpServer): void {
   // Register Role Tools
@@ -138,4 +142,8 @@ export function registerAllTools(server: McpServer): void {
   registerCreateTenantTool(server);
   registerDeleteTenantTool(server);
   registerUpdateTenantTool(server);
+
+  // Register Entitlements Tools
+  registerGetTenantPlansTool(server);
+  registerGetEntitlementsTool(server);
 }
